@@ -1,0 +1,104 @@
+.cal{
+    width: 400px;
+    height: 360px;
+    background-color:silver;
+  
+  }
+  
+  .display{
+    width: 400px;
+    height: 50px;
+    float: right;
+    background-color: darkblue;
+    font-size:40px;
+    COLOR:RED;
+  }
+  
+  
+  .calc{
+    width: 90px;
+    height: 50px;
+     background-color:#f4f4f4;
+    border: 2px solid  #eaeaea; 
+    font-size:27px;
+    color: #666666;
+    float: left;
+    text-transform:uppercase;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 5px;
+    cursor: pointer;
+      
+  }
+  
+  
+  .calc:hover {
+    background-color: #d83e3e;
+    color: #f2f2d2;
+  }
+  
+  
+  .zroo {
+    width: 200px;
+    height: 50px;
+    float:left;
+     background-color:#f4f4f4;
+    border: 2px solid  #eaeaea; 
+    font-size:27px;
+    color: #666666;
+    text-transform:uppercase;
+    border-radius: 10px;
+    padding: 0px;
+    margin-top: 5px;
+    cursor: pointer;
+      
+  }
+  
+  
+  .zroo:hover {
+    background-color: #d83e3e;
+    color: #f2f2d2;
+  }
+  
+  .havasar{
+    width: 90px;
+    height: 50px;
+     background-color:#f4f4f4;
+    border: 2px solid  #eaeaea; 
+    float: left;
+    font-size:27px;
+    color: #666666;
+    text-transform:uppercase;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+      
+  }
+  
+  
+  .havasar:hover {
+    background-color: #d83e3e;
+    color: #f2f2d2;
+  }
+  
+  
+  .inc{
+    width: 300px;
+    height: 100px;
+     background-color:#f4f4f4;
+    border: 2px solid  #eaeaea; 
+    font-size:27px;
+    color: #666666;
+    float: left;
+    text-transform:uppercase;
+    border-radius: 10px;
+    padding: 1px;
+    margin: 40px;
+    cursor: pointer;
+  }
+  
+  .inc:hover {
+    background-color: #d83e3e;
+    color: #f2f2d2;
+  }

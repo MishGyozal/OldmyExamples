@@ -1,0 +1,10 @@
+var apple = 8;
+var cookies = 13;
+var food = apple + cookies;
+console.log(food);
+var age = 14;
+var height = 160;
+var d =  (age>10)&&(height>120);
+console.log(d);
+var e = (age>12)&&(age<18);
+console.log(e);

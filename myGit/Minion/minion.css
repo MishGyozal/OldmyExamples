@@ -1,0 +1,495 @@
+
+body{
+	top: 100%;
+	left: 100%;
+	margin:0;
+	padding: 0;
+
+	background:  #42f4eb;
+
+
+}
+.title{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	font-family: Comic Sans MS ;
+	font-size: 45px;
+	transform: translate(-50%,50%);
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #f5f5f5;
+}
+
+.title:before{
+	content: attr(data-text);
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #000;
+	overflow: hidden;
+	animation: animate 10s linear infinite;
+	border-right: 1px solid #000;
+}
+@keyframes animate
+{
+	0%{
+		width: 0;
+
+	}
+	50%{
+		width: 100%;
+		
+	}
+	100%{
+		width: 0;
+		
+	}
+}
+
+.box{
+	position: relative;
+	margin: auto;
+	display: block;
+	/*border: 2px solid green;*/
+	margin-top: 4%;
+	width: 630px;
+	height: 580px;
+	background: none;
+}
+
+.body{
+	position: absolute;
+	top: 1%;
+	left: 27%;
+	width: 45%;
+	height: 75%;
+	background: #f4ca52;
+	border-radius: 45%;
+
+}
+
+.cap-top{
+	position: absolute;
+	top: -25%;
+	left: 2%;
+	width: 96%;
+	height: 45%;
+	background: #2e3192;
+	
+	-webkit-clip-path: circle(50% at 50% 100%);
+clip-path: circle(50% at 50% 100%);
+	
+}
+
+
+.cap-bottom{
+	position: absolute;
+	top: -40%;
+	left: 1.5%;
+	width: 97%;
+	background: #2e3192;
+	height: 75%;
+	border-radius: 45%;
+-webkit-clip-path: polygon(48% 100%, 0 78%, 100% 78%);
+clip-path: polygon(48% 100%, 0 78%, 100% 78%);
+	
+}
+.eye-left{
+	position: absolute;
+	top: 11%;
+	left: 24%;
+	width: 21%;
+	height: 15%;
+	background: white;
+	border-radius: 50%;
+	border: solid 8px #bcc0c1;
+}
+.eye-right{
+	position: absolute;
+	top: 11%;
+	left: 50%;
+	width: 21%;
+	height: 15%;
+	background: white;
+	border-radius: 50%;
+	border: solid 8px #bcc0c1;
+}
+
+.inner-eye{
+	position: absolute;
+	top: 24%;
+	left: 25%;
+	width: 30%;
+	height: 25%;
+	background: black;
+	border-radius: 50%;
+	border: solid 6px #bcc0c1;
+}
+
+.a-left-line{
+	position: absolute;
+	top: -4%;
+	left: 42.5%;
+	width: 5%;
+	height: 15%;
+	background: white;
+	transform: rotate(31deg);
+}
+
+.a-right-line{
+	position: absolute;
+	top: -4%;
+	left: 52.5%;
+	width: 5%;
+	height: 15%;
+	background: white;
+	transform: rotate(-31deg);
+}
+
+.a-midle-line{
+	position: absolute;
+	top: 1.5%;
+	left: 47.5%;
+	width: 5%;
+	height: 7.7%;
+	background: white;
+	transform: rotate(90deg);
+}
+
+.wing-left{
+	position: absolute;
+	top: -1.5%;
+	left: 0%;
+	width: 60%;
+	height: 16%;
+	background: white;
+	-webkit-clip-path: polygon(28% 100%, 27% 1%, 1% 19%, 10% 27%, 3% 36%, 15% 37%);
+clip-path: polygon(28% 100%, 27% 1%, 1% 19%, 10% 27%, 3% 36%, 15% 37%);
+}
+
+.wing-right{
+	position: absolute;
+	top: -1.5%;
+	left: 46.5%;
+	width: 60%;
+	height: 16%;
+	background: white;
+	-webkit-clip-path: polygon(63% 100%, 63% 1%, 100% 23%, 78% 29%, 94% 33%, 74% 39%);
+clip-path: polygon(63% 100%, 63% 1%, 100% 23%, 78% 29%, 94% 33%, 74% 39%);
+}
+
+
+
+.mouth{
+	position: absolute;
+	top: 38%;
+	left: 25%;
+	width: 50%;
+	height: 15%;
+	background: black;
+	-webkit-clip-path: circle(50% at 51% 0);
+clip-path: circle(50% at 51% 0);
+}
+
+.tognue{
+	position: absolute;
+	top: 50%;
+	left: 25%;
+	width: 50%;
+	height: 35%;
+	background: #ef1a20;
+	border-radius: 50%;
+	-webkit-clip-path: circle(50% at 50% 100%);
+clip-path: circle(50% at 50% 100%);
+}
+.tooth-1{
+	position: absolute;
+	top: 0%;
+	left: 10%;
+	width: 25%;
+	height: 35%;
+	background: white;
+	-webkit-clip-path: circle(50% at 51% 0);
+clip-path: circle(50% at 51% 0);
+}
+
+
+.tooth-2{
+	position: absolute;
+	top: 0%;
+	left: 30%;
+	width: 25%;
+	height: 35%;
+	background: white;
+	-webkit-clip-path: circle(50% at 51% 0);
+clip-path: circle(50% at 51% 0);
+}
+
+.tooth-3{
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	width: 25%;
+	height: 35%;
+	background: white;
+	-webkit-clip-path: circle(50% at 51% 0);
+clip-path: circle(50% at 51% 0);
+}
+
+.tooth-4{
+	position: absolute;
+	top: 0%;
+	left: 70%;
+	width: 25%;
+	height: 35%;
+	background: white;
+	-webkit-clip-path: circle(50% at 51% 0);
+clip-path: circle(50% at 51% 0);
+}
+
+.suit-blue{
+	position: absolute;
+	top: 42%;
+	left: -3%;
+	width: 106%;
+	height: 32%;
+	background: #2e3192;
+	--webkit-clip-path: polygon(49% 29%, 96% 21%, 100% 60%, 93% 100%, 7% 100%, 0% 60%, 3% 20%);
+clip-path: polygon(49% 29%, 96% 21%, 100% 60%, 93% 100%, 7% 100%, 0% 60%, 3% 20%);
+}
+.star{
+	position: absolute;
+	top: 42%;
+	left: 40%;
+	width: 25%;
+	height: 32%;
+	background: white;
+	-webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.suit-red-white{
+	position: absolute;
+	top: 73%;
+	left: -11%;
+	width: 122%;
+	height: 32%;
+	background: #ef1a20;
+	clip-path: circle(50% at 50% 1%);
+}
+.suit-white-1{
+	position: absolute;
+	top: 0%;
+	left: 25%;
+	width: 10%;
+	height: 90%;
+	background:white;
+}
+
+.suit-white-2{
+	position: absolute;
+	top: 0%;
+	left: 45%;
+	width: 10%;
+	height: 100%;
+	background:white;
+}
+
+.suit-white-3{
+	position: absolute;
+	top: 0%;
+	left: 65%;
+	width: 10%;
+	height: 100%;
+	background:white;
+}
+
+
+.foot-left{
+	position: absolute;
+	top: 95%;
+	left: 30%;
+	width: 10%;
+	height: 10%;
+	background:#2e3192;
+	z-index: -1;
+}
+
+
+.foot-right{
+	position: absolute;
+	top: 95%;
+	left: 60%;
+	width: 10%;
+	height: 10%;
+	background:#2e3192;
+	z-index: -1;
+}
+
+
+.shoe-left{
+	position: absolute;
+	top: 105%;
+	left: 10%;
+	width: 35%;
+	height: 10%;
+	background:#ef1a20;
+	border-bottom-left-radius: 45%;
+	border-top-left-radius: 45%;
+}
+
+.shoe-right{
+	position: absolute;
+	top: 105%;
+	left: 55%;
+	width: 35%;
+	height: 10%;
+	background:#ef1a20;
+	border-bottom-right-radius: 45%;
+	border-top-right-radius: 45%;
+}
+
+.shadow{
+	position: absolute;
+	top: 110%;
+	left: 10%;
+	width: 80%;
+	height: 20%;
+	background:#a8a9ad;
+	border-radius: 40%;
+	z-index: -2;
+}
+
+
+.left-hand-top{
+	position: absolute;
+	top: 50%;
+	left: -9%;
+	width: 10%;
+	height: 20%;
+	border-radius: 40%;
+	background:#2e3192;
+	z-index: -2;
+	transform: rotate(10deg);
+}
+
+.right-hand-top{
+	position: absolute;
+	top: 50%;
+	left: 98%;
+	width: 10%;
+	height: 20%;
+	border-radius: 40%;
+	background:#2e3192;
+	z-index: -2;
+	transform: rotate(-10deg);
+}
+
+.left-hand-bottom{
+	position: absolute;
+	top: 60%;
+	left: -12%;
+	width: 10%;
+	height: 20%;
+	border-radius: 40%;
+	background:white;
+	z-index: -2;
+	transform: rotate(10deg);
+}
+
+
+.right-hand-bottom{
+	position: absolute;
+	top: 60%;
+	left: 101%;
+	width: 10%;
+	height: 20%;
+	border-radius: 40%;
+	background:white;
+	z-index: -2;
+	transform: rotate(-10deg);
+}
+
+.glove-top{
+	position: absolute;
+	top: 76%;
+	left: -15%;
+	width: 14%;
+	height: 5%;
+	background:#ef1a20;
+}
+
+.glove-bottom{
+	position: absolute;
+	top: 78%;
+	left: -20%;
+	width: 25%;
+	height: 25%;
+	background:#ef1a20;
+	border-radius: 45%;}
+
+
+
+.shield{
+	position: absolute;
+	top: 78%;
+	left: 75%;
+	width: 64%;
+	height: 42%;
+	background:white;
+	border-radius: 50%;
+	border :solid 20px #ef1a20;
+
+	animation: spinShield 5s 3;
+}
+
+.shield:hover,.eye-left:hover,.eye-right:hover{
+transform: scale(1.1);
+background: linear-gradient(to right, #6a11cb  0%,#2575fc 100%);
+}
+
+/*animation
+*/
+@keyframes spinShield{
+0%{
+transform: rotate(0deg);
+color: white;
+}
+100%{
+	background:  #a8a9ad;
+
+transform: rotate(360deg);
+}
+}
+
+
+.shield-inner{
+	position: absolute;
+	top: 15%;
+	left: 13%;
+	width: 52%;
+	height: 47%;
+	background:#2e3192;
+	border-radius: 50%;
+	border :solid 20px #ef1a20;
+}
+
+
+
+
+.shield-star{
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	width: 82%;
+	height: 77%;
+	background:white;
+	
+	-webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}

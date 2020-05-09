@@ -1,0 +1,19 @@
+#box{
+    width:100px;
+    height:100px;
+    background-color:green;
+  }
+  .night{
+   color:white;
+    background-color:black;
+    
+  }
+  
+  .day{
+   color:black;
+    background-color:white;
+  }
+  .uris{
+      color: green;
+     background-color: yellow;
+    }
